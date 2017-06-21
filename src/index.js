@@ -1,6 +1,9 @@
 // The Cloud Functions for Firebase SDK to create Cloud Functions and setup triggers.
 const functions = require('firebase-functions');
 
+const admin = require('firebase-admin');
+admin.initializeApp(functions.config().firebase);
+
 // Google APIs client library used to call Google Drive
 var google = require('googleapis');
 
@@ -51,5 +54,5 @@ exports.answerTheFetch = functions.https.onRequest((req, res) => {
 					id: file.id
 				}));
 			}
-		});
+	});
 });
