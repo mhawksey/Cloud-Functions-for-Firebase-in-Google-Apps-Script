@@ -87,6 +87,6 @@ When the script is run you will be prompted for one time authorisation and when 
 
 ## Summary
 
-Congratulations you've just deployed and used your first Cloud Function for Firebase. This is a basic example to get you started with Cloud Functions for Firebase and there are a number of enhancements to this example you might want to use if using cloud functions in your Google Apps Script projects. For example, ...    
+Congratulations you've just deployed and used your first Cloud Function for Firebase. This is a basic example to get you started with Cloud Functions for Firebase and there are a number of enhancements to this example you might want to use if using cloud functions in your Google Apps Script projects. For example,  there are a number of improvements upi could make in error handling. It should also be noted that currently there is no way to restrict execution of a cloud function by for example domain whitelisting. It is possible to include your own authentication or passkey access within your cloud function remembering that with reject access a small amount of resource allowance will be used. As Firebase provides an authentication service you might want to look at this as an option. If using a cloud function within a add-on or webapp you might find [this example code](https://github.com/firebase/functions-samples/tree/master/authorized-https-endpoint) useful.  
  
 
