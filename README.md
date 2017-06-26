@@ -57,7 +57,7 @@ Google Apps Script is a powerful tool to integrate with Google products and thir
 
 16. In the code editor open the `index.js` file in the `functions` directory![image alt text](assets/image_7.png)
 
-17. Copy and paste the code below to replace the contents of index.js <[INSERT CODE](https://github.com/mhawksey/Cloud-Functions-for-Firebase-in-Google-Apps-Script/blob/master/src/index.js)>
+17. Copy and paste the [code from this repo](https://github.com/mhawksey/Cloud-Functions-for-Firebase-in-Google-Apps-Script/blob/master/src/index.js) to replace the contents of `index.js`
 
 18. The code includes a number of required libraries. To include these hover/click over the ![image alt text](assets/image_8.png) icons and select ‘Update package.json’. [To install these packages from the Cloud Shell you can also `cd functions` and use the command `npm install googleapis google-auth-library request --save` (using the `--save` option to make sure `package.json` gets updated] ![image alt text](assets/image_9.png)
 
